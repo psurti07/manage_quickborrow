@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/contactenquiry",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ContactEnquiry\\": "",
+            "Modules\\ContactEnquiry\\App\\": "app/",
+            "Modules\\ContactEnquiry\\Database\\Factories\\": "database/factories/",
+            "Modules\\ContactEnquiry\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\ContactEnquiry\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/supportrequest",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SupportRequest\\": "",
+            "Modules\\SupportRequest\\App\\": "app/",
+            "Modules\\SupportRequest\\Database\\Factories\\": "database/factories/",
+            "Modules\\SupportRequest\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\SupportRequest\\Tests\\": "tests/"
+        }
+    }
+}

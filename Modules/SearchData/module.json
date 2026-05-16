@@ -1,0 +1,11 @@
+{
+    "name": "SearchData",
+    "alias": "searchdata",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SearchData\\App\\Providers\\SearchDataServiceProvider"
+    ],
+    "files": []
+}

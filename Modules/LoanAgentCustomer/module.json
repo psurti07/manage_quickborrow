@@ -1,0 +1,11 @@
+{
+    "name": "LoanAgentCustomer",
+    "alias": "loanagentcustomer",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LoanAgentCustomer\\App\\Providers\\LoanAgentCustomerServiceProvider"
+    ],
+    "files": []
+}

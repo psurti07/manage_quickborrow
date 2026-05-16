@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/channelpartner",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ChannelPartner\\": "",
+            "Modules\\ChannelPartner\\App\\": "app/",
+            "Modules\\ChannelPartner\\Database\\Factories\\": "database/factories/",
+            "Modules\\ChannelPartner\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\ChannelPartner\\Tests\\": "tests/"
+        }
+    }
+}

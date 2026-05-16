@@ -1,0 +1,11 @@
+{
+    "name": "Remarks",
+    "alias": "remarks",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Remarks\\App\\Providers\\RemarksServiceProvider"
+    ],
+    "files": []
+}

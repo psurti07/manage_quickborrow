@@ -1,0 +1,11 @@
+{
+    "name": "SiteOptions",
+    "alias": "siteoptions",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SiteOptions\\App\\Providers\\SiteOptionsServiceProvider"
+    ],
+    "files": []
+}

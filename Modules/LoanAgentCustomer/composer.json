@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/loanagentcustomer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LoanAgentCustomer\\": "",
+            "Modules\\LoanAgentCustomer\\App\\": "app/",
+            "Modules\\LoanAgentCustomer\\Database\\Factories\\": "database/factories/",
+            "Modules\\LoanAgentCustomer\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LoanAgentCustomer\\Tests\\": "tests/"
+        }
+    }
+}

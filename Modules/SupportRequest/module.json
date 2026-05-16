@@ -1,0 +1,11 @@
+{
+    "name": "SupportRequest",
+    "alias": "supportrequest",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SupportRequest\\App\\Providers\\SupportRequestServiceProvider"
+    ],
+    "files": []
+}

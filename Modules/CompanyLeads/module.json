@@ -1,0 +1,11 @@
+{
+    "name": "CompanyLeads",
+    "alias": "companyleads",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CompanyLeads\\App\\Providers\\CompanyLeadsServiceProvider"
+    ],
+    "files": []
+}

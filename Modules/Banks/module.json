@@ -1,0 +1,11 @@
+{
+    "name": "Banks",
+    "alias": "banks",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Banks\\App\\Providers\\BanksServiceProvider"
+    ],
+    "files": []
+}

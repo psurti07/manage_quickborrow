@@ -1,0 +1,11 @@
+{
+    "name": "AdsContent",
+    "alias": "adscontent",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdsContent\\App\\Providers\\AdsContentServiceProvider"
+    ],
+    "files": []
+}

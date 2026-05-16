@@ -1,0 +1,11 @@
+{
+    "name": "CreateAccount",
+    "alias": "createaccount",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CreateAccount\\App\\Providers\\CreateAccountServiceProvider"
+    ],
+    "files": []
+}

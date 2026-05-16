@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/adscontent",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AdsContent\\": "",
+            "Modules\\AdsContent\\App\\": "app/",
+            "Modules\\AdsContent\\Database\\Factories\\": "database/factories/",
+            "Modules\\AdsContent\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\AdsContent\\Tests\\": "tests/"
+        }
+    }
+}

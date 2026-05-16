@@ -1,0 +1,11 @@
+{
+    "name": "ImportantUpdate",
+    "alias": "importantupdate",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ImportantUpdate\\App\\Providers\\ImportantUpdateServiceProvider"
+    ],
+    "files": []
+}

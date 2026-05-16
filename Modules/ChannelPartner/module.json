@@ -1,0 +1,11 @@
+{
+    "name": "ChannelPartner",
+    "alias": "channelpartner",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ChannelPartner\\App\\Providers\\ChannelPartnerServiceProvider"
+    ],
+    "files": []
+}

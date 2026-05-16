@@ -1,0 +1,11 @@
+{
+    "name": "ContactEnquiry",
+    "alias": "contactenquiry",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ContactEnquiry\\App\\Providers\\ContactEnquiryServiceProvider"
+    ],
+    "files": []
+}

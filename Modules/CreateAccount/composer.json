@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/createaccount",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CreateAccount\\": "",
+            "Modules\\CreateAccount\\App\\": "app/",
+            "Modules\\CreateAccount\\Database\\Factories\\": "database/factories/",
+            "Modules\\CreateAccount\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\CreateAccount\\Tests\\": "tests/"
+        }
+    }
+}

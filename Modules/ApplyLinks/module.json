@@ -1,0 +1,11 @@
+{
+    "name": "ApplyLinks",
+    "alias": "applylinks",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ApplyLinks\\App\\Providers\\ApplyLinksServiceProvider"
+    ],
+    "files": []
+}

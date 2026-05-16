@@ -1,0 +1,11 @@
+{
+    "name": "SendOtp",
+    "alias": "sendotp",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SendOtp\\App\\Providers\\SendOtpServiceProvider"
+    ],
+    "files": []
+}

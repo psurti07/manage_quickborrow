@@ -1,0 +1,11 @@
+{
+    "name": "Inhouse",
+    "alias": "inhouse",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Inhouse\\App\\Providers\\InhouseServiceProvider"
+    ],
+    "files": []
+}

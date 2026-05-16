@@ -1,0 +1,11 @@
+{
+    "name": "DND",
+    "alias": "dnd",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\DND\\App\\Providers\\DNDServiceProvider"
+    ],
+    "files": []
+}

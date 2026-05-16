@@ -1,0 +1,11 @@
+{
+    "name": "StaffAccount",
+    "alias": "staffaccount",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\StaffAccount\\App\\Providers\\StaffAccountServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "RoiPackages",
+    "alias": "roipackages",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\RoiPackages\\App\\Providers\\RoiPackagesServiceProvider"
+    ],
+    "files": []
+}
