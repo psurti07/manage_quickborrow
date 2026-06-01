@@ -68,7 +68,7 @@
         
         function openModal(){
             $.ajax({
-                url: "https://manage.easyailoans.com/sms/send-test-sms",
+                url: "https://manage.quikborrow.com/sms/send-test-sms",
                 type: 'GET',
                 contentType: "application/json",
                 headers: {

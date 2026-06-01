@@ -88,13 +88,13 @@
                                                                             class="es-m-txt-c"
                                                                             style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
                                                                             <a target="_blank"
-                                                                                href="https://easyailoans.com/"
+                                                                                href="https://quikborrow.com/"
                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                            <img src="https://easyailoans.com/public/front/images/logo/logo.png"
-                                                                                alt="easyailoans"
+                                                                            <img src="https://quikborrow.com/public/front/images/logo/logo.png"
+                                                                                alt="quikborrow"
                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                 width="190"
-                                                                                title="easyailoans">
+                                                                                title="quikborrow">
                                                                             </a>
                                                                         </td>
                                                                     </tr>

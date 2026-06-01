@@ -171,7 +171,7 @@ $('.application-status-form').submit(function(){
                 if (result.type === 'SUCCESS') {
                     toastr.success(result.message);
                     let applicationId = result.data;
-                    let url = 'https://manage.easyailoans.com/selfapply/applications-details/:userId';
+                    let url = 'https://manage.quikborrow.com/selfapply/applications-details/:userId';
                     url = url.replace(':userId', applicationId);
                     setTimeout(function(){
                         window.location.href = url;

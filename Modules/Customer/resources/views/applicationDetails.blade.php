@@ -286,7 +286,7 @@
         }).then((willDelete) => {
             if (willDelete) {
                 $.ajax({
-                    url: 'https://manage.easyailoans.com/selfapply/applications-details/delete-remarks',
+                    url: 'https://manage.quikborrow.com/selfapply/applications-details/delete-remarks',
                     type: 'POST',
                     data:  JSON.stringify({id: remarks_id}),
                     contentType: "application/json",
@@ -315,7 +315,7 @@
         }).then((willDelete) => {
             if (willDelete) {
                 $.ajax({
-                    url: 'https://manage.easyailoans.com/selfapply/applications-details/update-process',
+                    url: 'https://manage.quikborrow.com/selfapply/applications-details/update-process',
                     type: 'POST',
                     data:  JSON.stringify({id: userId, appid: appId}),
                     contentType: "application/json",

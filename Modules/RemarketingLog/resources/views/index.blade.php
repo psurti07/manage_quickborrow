@@ -86,7 +86,7 @@
         
         function openRemarketingModal(remarketingId){
             $.ajax({
-            url: `https://manage.easyailoans.com/remarketing-log/details/${remarketingId}`,
+            url: `https://manage.quikborrow.com/remarketing-log/details/${remarketingId}`,
             type: 'GET',
             contentType: "application/json",
             headers: {

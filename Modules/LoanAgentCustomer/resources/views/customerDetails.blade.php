@@ -287,7 +287,7 @@
                                                                     $aadhaarArray = json_decode($kycDoc->aadharcard, true);
                                                                 @endphp
                                                                 @foreach($aadhaarArray as $aadhaar)
-                                                                    <a class="pdf" href="https://easyailoans.com/{{ $aadhaar }}" target="_blank"><i class="icofont icofont-file-image" style="font-size:30px"></i></a>
+                                                                    <a class="pdf" href="https://quikborrow.com/{{ $aadhaar }}" target="_blank"><i class="icofont icofont-file-image" style="font-size:30px"></i></a>
                                                                 @endforeach
                                                             @endif
                                                         </td>
@@ -297,7 +297,7 @@
                                                         <td>{{ $kycDoc->pancard_number }}</td>
                                                         <td class="text-center">
                                                             @if($kycDoc->pancard)
-                                                                <a class="pdf" href="https://easyailoans.com/{{ $kycDoc->pancard }}" target="_blank">
+                                                                <a class="pdf" href="https://quikborrow.com/{{ $kycDoc->pancard }}" target="_blank">
                                                                     <i class="icofont icofont-file-image" style="font-size:30px"></i>
                                                                 </a>
                                                             @endif
@@ -308,7 +308,7 @@
                                                         <td>--</td>
                                                         <td class="text-center">
                                                             @if($kycDoc->lightbill)
-                                                                <a class="pdf" href="https://easyailoans.com/{{ $kycDoc->lightbill }}" target="_blank">
+                                                                <a class="pdf" href="https://quikborrow.com/{{ $kycDoc->lightbill }}" target="_blank">
                                                                     <i class="icofont icofont-file-pdf" style="font-size:30px"></i>
                                                                 </a>
                                                             @endif
@@ -319,7 +319,7 @@
                                                         <td>--</td>
                                                         <td class="text-center">
                                                             @if($kycDoc->cancelcheque)
-                                                                <a class="pdf" href="https://easyailoans.com/{{ $kycDoc->cancelcheque }}" target="_blank">
+                                                                <a class="pdf" href="https://quikborrow.com/{{ $kycDoc->cancelcheque }}" target="_blank">
                                                                     <i class="icofont icofont-file-pdf" style="font-size:30px"></i>
                                                                 </a>
                                                             @endif
@@ -330,7 +330,7 @@
                                                         <td>--</td>
                                                         <td class="text-center">
                                                             @if($kycDoc->bankstatement)
-                                                                <a class="pdf" href="https://easyailoans.com/{{ $kycDoc->bankstatement }}" target="_blank">
+                                                                <a class="pdf" href="https://quikborrow.com/{{ $kycDoc->bankstatement }}" target="_blank">
                                                                     <i class="icofont icofont-file-pdf" style="font-size:30px"></i>
                                                                 </a>
                                                             @endif
@@ -341,7 +341,7 @@
                                                         <td>--</td>
                                                         <td class="text-center">
                                                             @if($kycDoc->formsixteen)
-                                                                <a class="pdf" href="https://easyailoans.com/{{ $kycDoc->formsixteen }}" target="_blank">
+                                                                <a class="pdf" href="https://quikborrow.com/{{ $kycDoc->formsixteen }}" target="_blank">
                                                                     <i class="icofont icofont-file-pdf" style="font-size:30px"></i>
                                                                 </a>
                                                             @endif
@@ -352,7 +352,7 @@
                                                         <td>--</td>
                                                         <td class="text-center">
                                                             @if($kycDoc->salaryslip)
-                                                                <a class="pdf" href="https://easyailoans.com/{{ $kycDoc->salaryslip }}" target="_blank">
+                                                                <a class="pdf" href="https://quikborrow.com/{{ $kycDoc->salaryslip }}" target="_blank">
                                                                     <i class="icofont icofont-file-pdf" style="font-size:30px"></i>
                                                                 </a>
                                                             @endif

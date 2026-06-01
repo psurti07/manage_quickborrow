@@ -40,7 +40,7 @@
     <script>
         function openinteraktSettingsModal(id){
             $.ajax({
-            url: `https://manage.easyailoans.com/interakt-settings/edit/${id}`,
+            url: `https://manage.quikborrow.com/interakt-settings/edit/${id}`,
             type: 'GET',
             contentType: "application/json",
             headers: {

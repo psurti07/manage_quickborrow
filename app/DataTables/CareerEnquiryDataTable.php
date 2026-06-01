@@ -37,7 +37,7 @@ class CareerEnquiryDataTable extends DataTable
             ->addColumn('resume',function($row){
                 return '<ul class="action" style="display:block">
                                 <li style="display:flex;align-items: center;justify-content: center">
-                                    <a class="pdf" href="https://easyailoans.com/upload/resumes/'.$row->resume.'" target="_blank">
+                                    <a class="pdf" href="https://quikborrow.com/upload/resumes/'.$row->resume.'" target="_blank">
                                         <i class="icofont icofont-file-pdf"></i>
                                     </a>
                                 </li>

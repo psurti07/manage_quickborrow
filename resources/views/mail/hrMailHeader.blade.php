@@ -370,9 +370,9 @@
                 height: 100%;
                 background-repeat: repeat;
                 background-position: center top;
-                background-image: url(https://easyailoans.com/assets/images/mail-bgm.png);
+                background-image: url(https://quikborrow.com/assets/images/mail-bgm.png);
                 background-color: #f9f9f9;
-                " background="https://easyailoans.com/front/images/bg-01.webp">
+                " background="https://quikborrow.com/front/images/bg-01.webp">
                 <tbody>
                     <tr>
                         <td class="es-m-margin" valign="top" style="padding: 0; margin: 0;">
@@ -412,13 +412,13 @@
                                                                                             class="es-m-txt-c"
                                                                                             style="padding: 0; margin: 0; padding-top: 5px; font-size: 0;">
                                                                                             <a target="_blank"
-                                                                                                href="https://easyailoans.com/"
+                                                                                                href="https://quikborrow.com/"
                                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                                            <img src="https://easyailoans.com/front/images/logo/logo.png"
-                                                                                                alt="easyailoans"
+                                                                                            <img src="https://quikborrow.com/front/images/logo/logo.png"
+                                                                                                alt="quikborrow"
                                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                                 width="190"
-                                                                                                title="easyailoans">
+                                                                                                title="quikborrow">
                                                                                             </a>
                                                                                         </td>
                                                                                     </tr>
@@ -522,25 +522,25 @@
                                                                                                 ">
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://easyailoans.com/privacy-policy">
+                                                                                                    href="https://quikborrow.com/privacy-policy">
                                                                                                 Privacy Policy
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://easyailoans.com/terms-and-conditions">
+                                                                                                    href="https://quikborrow.com/terms-and-conditions">
                                                                                                 Terms &amp; Conditions
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://easyailoans.com/contact-us">
+                                                                                                    href="https://quikborrow.com/contact-us">
                                                                                                 Raise a request
                                                                                                 </a>
                                                                                                 &nbsp; | &nbsp;
                                                                                                 <a target="_blank"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;"
-                                                                                                    href="https://easyailoans.com">
+                                                                                                    href="https://quikborrow.com">
                                                                                                 Visit Website
                                                                                                 </a>
                                                                                             </p>
@@ -587,9 +587,9 @@
                                                                                                 +91-94292-14352
                                                                                                 </a>
                                                                                                 | Email:
-                                                                                                <a href="mailto:info@easyailoans.com"
+                                                                                                <a href="mailto:info@quikborrow.com"
                                                                                                     style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: none; color: #000f26; font-size: 14px;">
-                                                                                                info@easyailoans.com
+                                                                                                info@quikborrow.com
                                                                                                 </a>
                                                                                             </p>
                                                                                         </td>
@@ -608,7 +608,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0; padding-right: 10px;">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://twitter.com/easyailoans"
+                                                                                                                href="https://twitter.com/quikborrow"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -636,7 +636,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0; padding-right: 10px;">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://in.pinterest.com/easyailoans/"
+                                                                                                                href="https://in.pinterest.com/quikborrow/"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -668,7 +668,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0; padding-right:10px">
                                                                                                             <a target="_blank"
-                                                                                                                href="http://www.youtube.com/@easyailoans"
+                                                                                                                href="http://www.youtube.com/@quikborrow"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -701,7 +701,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0;padding-right:10px">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://www.facebook.com/@easyailoans.in"
+                                                                                                                href="https://www.facebook.com/@quikborrow.in"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
@@ -733,7 +733,7 @@
                                                                                                             valign="top"
                                                                                                             style="padding: 0; margin: 0;">
                                                                                                             <a target="_blank"
-                                                                                                                href="https://www.instagram.com/easyailoans/"
+                                                                                                                href="https://www.instagram.com/quikborrow/"
                                                                                                                 style="
                                                                                                                 -webkit-text-size-adjust: none;
                                                                                                                 -ms-text-size-adjust: none;
