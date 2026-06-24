@@ -51,7 +51,7 @@ class Partnersturnover extends Controller
             $array = (array) $data;
             // Add extra fields
             $array['inv_date'] = $recDate;
-            $array['companycode'] = env('COMPANY_CODE'); // or config('app.company_code')
+            $array['companycode'] = config('constants.company_code');; // or config('app.company_code')
             $array['product'] = 'SELF APPLY';
         
             // Call submitturnover (assuming it's a method in this controller)
@@ -92,7 +92,7 @@ class Partnersturnover extends Controller
         
             // Add extra fields
             $array['inv_date'] = $recDate;
-            $array['companycode'] = env('COMPANY_CODE'); // or config('app.company_code')
+            $array['companycode'] = config('constants.company_code');; // or config('app.company_code')
             $array['product'] = 'HIRE AGENT';
         
             // Call submitturnover (assuming it's a method in this controller)

@@ -22,7 +22,7 @@ class AssociatePartners extends Controller
             $decryptKey = stringCrypt($saltkey, 'decrypt');
             
             if($request->ip === env('LOCAL_IP')) {
-                if($decryptKey === env('COMPANY_CODE')) {
+                if($decryptKey === config('constants.company_code')) {
                     $dateResponse = $this->calculateCountWithAmt($request->fromdate, $request->todate, $request->product, 'date');
                     $yearResponse = $this->calculateCountWithAmt($request->fromdate, $request->todate, $request->product, 'year');
                     $graphResponse = $this->hourBasedCountUser($request->fromdate, $request->todate, $request->product);
@@ -204,7 +204,7 @@ class AssociatePartners extends Controller
         $ip = $request->input('ip'); // Laravel way to get IP
         
         if ($ip === env('LOCAL_IP')) {
-            if ($decryptKey === env('COMPANY_CODE')) {
+            if ($decryptKey === config('constants.company_code')) {
                 $royaltyAmount = $this->calculateRoyaltyAmount($product, $fromDate, $toDate);
                 return response()->json($royaltyAmount, 200);
             } else {
