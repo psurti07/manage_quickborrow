@@ -62,7 +62,7 @@
                                                                                             <a target="_blank"
                                                                                                 href="https://quikborrow.com/"
                                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                                            <img src="https://quikborrow.com/front/images/logo/logo.png"
+                                                                                            <img src="https://quikborrow.com/public/front/images/logo/logo.png"
                                                                                                 alt="quikborrow"
                                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                                 width="190"
@@ -111,7 +111,7 @@
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <td align="left"
-                                                                                            style="padding: 20px; margin: 0; line-height: 1.5rem;background-color: #E9F2FB; border-radius:12px;color:#000;font-size:16px">
+                                                                                            style="padding: 20px; margin: 0; line-height: 1.5rem;background-color: #e7f6f3; border-radius:12px;color:#000;font-size:16px">
                                                                                             <p style="font-size:15px"><strong>Dear {{ $fullname }},</strong></p>
                                                                                             <p style="font-size:15px">We wanted to inform you that your account password has been successfully changed.</p>
                                                                                             <p style="font-size:15px">

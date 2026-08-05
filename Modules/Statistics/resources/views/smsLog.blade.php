@@ -34,7 +34,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-lg-4 col-md-4 col-12">
+        {{-- <div class="col-lg-4 col-md-4 col-12">
             <a href="javascript:;" id="otpLACard">
                 <div class="card widget-1">
                     <div class="card-body">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
             </a>
-        </div>
+        </div> --}}
         <hr/>
     </div>
     <div class="row mt-5">
@@ -64,7 +64,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-lg-4 col-md-4 col-12">
+        {{-- <div class="col-lg-4 col-md-4 col-12">
             <a href="javascript:;" id="whatsappLA">
                 <div class="card widget-1">
                     <div class="card-body">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </a>
-        </div>
+        </div> --}}
         <hr/>
     </div>
     <div class="row mt-5">
@@ -94,7 +94,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-lg-4 col-md-4 col-12">
+        {{-- <div class="col-lg-4 col-md-4 col-12">
             <a href="javascript:;" id="remarketingLA">
                 <div class="card widget-1">
                     <div class="card-body">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
             </a>
-        </div>
+        </div> --}}
     </div>
         <!-- <div class="col-xxl-auto col-xl-4 col-sm-4 box-col-4">
             <div class="row">

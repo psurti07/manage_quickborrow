@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-xl-6 box-col-6">
+            {{-- <div class="col-sm-12 col-xl-6 box-col-6">
                 <div class="card">
                     <div class="card-header text-center">
                         <h5>Loan Agent Customers</h5>
@@ -58,7 +58,7 @@
                         <div id="la-leads"></div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
         @endif
     </div>

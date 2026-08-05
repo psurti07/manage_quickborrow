@@ -43,12 +43,12 @@
                                                             Self Apply
                                                         </label>
                                                     </div>
-                                                    <div class="form-check">
+                                                    {{-- <div class="form-check">
                                                         <input class="form-check-input" type="radio" name="module" id="loanAgent" value="2">
                                                         <label class="form-check-label" for="loanAgent">
                                                             Loan Agent
                                                         </label>
-                                                    </div>
+                                                    </div> --}}
                                                 </div>
                                                 <div class="col-12 mt-3">
                                                     <div class="form-group">

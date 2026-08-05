@@ -43,8 +43,8 @@
                                 <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
                                     <input type="radio" class="btn-check" name="acc_type" id="btnradio1" autocomplete="off" checked="true" value="1">
                                     <label class="btn btn-outline-primary" for="btnradio1">Self Apply</label>
-                                    <input type="radio" class="btn-check" name="acc_type" id="btnradio2" autocomplete="off" value="2">
-                                    <label class="btn btn-outline-primary" for="btnradio2">Loan Agent</label>
+                                    {{-- <input type="radio" class="btn-check" name="acc_type" id="btnradio2" autocomplete="off" value="2">
+                                    <label class="btn btn-outline-primary" for="btnradio2">Loan Agent</label> --}}
                                 </div>
                                 @component('components.ajax-error',['field'=>'acc_type'])@endcomponent
                             </div>
