@@ -48,7 +48,7 @@ class BanksDataTable extends DataTable
             })
             ->addColumn('bank', function($model){
                 $pic1 = $model->bank_image;
-                $path = 'upload/banks/';
+                $path = '../upload/banks/';
                 $pic2 = asset($path.$pic1);
                 return '<img src="'.$pic2.'" class="img-100 me-2">';
             })

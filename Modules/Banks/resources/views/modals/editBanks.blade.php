@@ -30,7 +30,7 @@
                             @component('components.ajax-error',['field'=>'bank_image'])@endcomponent
                         </div>
                         <div class="form-group col-md-6">
-                            <img src="{{$data['bank_image']!=''?asset('upload/banks/'.$data['bank_image']):'https://docutils.sourceforge.io/sandbox/py-rest-doc/sphinx/style/preview.png'}}" width="150px" id="imgpreview" class="mt-3">
+                            <img src="{{$data['bank_image']!=''?asset('../upload/banks/'.$data['bank_image']):'https://docutils.sourceforge.io/sandbox/py-rest-doc/sphinx/style/preview.png'}}" width="150px" id="imgpreview" class="mt-3">
                         </div>
                     </div>
                 </div>
