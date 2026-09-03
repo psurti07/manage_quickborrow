@@ -19,7 +19,7 @@
 
 @section(section: 'content')
 <div class="container-fluid">
-    <div class="row">
+    {{-- <div class="row">
         <h4 class="text-center mb-5">Loan Agent Offer Page Statistics</h4>
         <div class="col-lg-4 col-md-4 col-12">
             <a href="javascript:;" data-offer="Great_Deal_Offer" onclick="offerPageRedirect(this)">
@@ -88,7 +88,7 @@
             </a>
         </div>
         <hr />
-    </div>
+    </div> --}}
     <div class="row mt-3">
         <h4 class="text-center mb-5">Self Apply Offer Page Statistics</h4>
         <div class="col-lg-4 col-md-4 col-12">

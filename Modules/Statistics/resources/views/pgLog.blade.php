@@ -19,7 +19,7 @@
 
 @section(section: 'content')
 <div class="container-fluid">
-    <div class="row mt-3">
+    {{-- <div class="row mt-3">
         <h4 class="text-center mb-5">Todays Loan Agent Payment Gateway Statistics</h4>
         <div class="col-lg-4 col-md-4 col-12">
             <a href="javascript:;" data-payment-gateway="zaakpay-log" data-entry-for="12" data-offer-name="Hire Loan Agent" onclick="paymentLogRedirect(this)">
@@ -126,7 +126,7 @@
             </a>
         </div> -->
         <hr />
-    </div>
+    </div> --}}
     <div class="row mt-3">
         <h4 class="text-center mb-5">Todays Self Apply Payment Gateway Statistics</h4>
         <div class="col-lg-4 col-md-4 col-12">

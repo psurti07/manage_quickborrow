@@ -414,7 +414,7 @@
                                                                                             <a target="_blank"
                                                                                                 href="https://quikborrow.com/"
                                                                                                 style="-webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; text-decoration: underline; color: #000f26; font-size: 14px;">
-                                                                                            <img src="https://quikborrow.com/front/images/logo/logo.png"
+                                                                                            <img src="https://quikborrow.com/public/front/images/logo/logo.png"
                                                                                                 alt="quikborrow"
                                                                                                 style="display: block; border: 0; outline: 0; text-decoration: none; -ms-interpolation-mode: bicubic;"
                                                                                                 width="190"
@@ -462,7 +462,7 @@
                                                                     <tr>
                                                                         <td align="left" style="padding: 20px; margin: 0; line-height: 2rem;border: 1px solid green;
                                                                             border-radius: 12px;
-                                                                            background-color: #E9F2FB;">
+                                                                            background-color: #e7f6f3;">
                                                                             @yield('content')
                                                                         </td>
                                                                     </tr>

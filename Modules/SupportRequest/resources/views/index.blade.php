@@ -37,7 +37,7 @@
                     <option value="">All</option>
                     <option value="2">Guest User</option>
                     <option value="1">Self Apply User</option>
-                    <option value="3">Loan Agent User</option>
+                    {{-- <option value="3">Loan Agent User</option> --}}
                 </select>
             </div>
             <div class="col-md-2 position-relative">
