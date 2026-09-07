@@ -27,7 +27,7 @@ Route::group([
     // Route::get('/loanagent/application/service-call/{applicationId}/{type}', [LoanStatusController::class, 'serviceCalls'])->name('loanAgent.application.serviceCall.add.remarks');
     // Route::get('/loanagent/application/service-closed/{applicationId}', [LoanStatusController::class, 'serviceClosed'])->name('loanAgent.application.serviceClosed.add.remarks');
     
-    // Route::post('/loanagent/application/get-title', [LoanStatusController::class, 'getTitle'])->name('loanagent.application.status.title');
+    Route::post('/loanagent/application/get-title', [LoanStatusController::class, 'getTitle'])->name('loanagent.application.status.title');
     
     // Route::get('/loanagent/application/download-report/{userid}/{applicationid}', [LoanController::class, 'downloadReport'])->name('loanAgent.application.download.report');
     
