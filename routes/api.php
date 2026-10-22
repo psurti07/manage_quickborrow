@@ -13,4 +13,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('/associatepartners',[AssociatePartners::class, 'index']);
 Route::post('/associatepartners/todayRoyalty',[AssociatePartners::class, 'todayRoyalty']);
-Route::post('/sync-data',[SyncDataController::class, 'syncData']);
+// Route::post('/sync-data',[SyncDataController::class, 'syncData']);

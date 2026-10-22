@@ -75,8 +75,8 @@ class InvoiceSyncService
             ->get()
             ->map(function ($row) use ($productCode) {
 
-                $row->company_code     = config('constants.company_code');
-                $row->company_local_ip = config('constants.local_ip');
+                $row->company_code     = config('constant.company_code');
+                $row->company_local_ip = config('constant.local_ip');
                 $row->product_code     = $productCode;
 
                 return $row;

@@ -19,7 +19,7 @@ class InvoiceSyncController extends Controller
 
     public function syncInvoiceData(Request $request)
     {
-        if (!$request->has('master_key') || $request->master_key !== config('constants.master_api_key')) {
+        if (!$request->has('master_key') || $request->master_key !== config('constant.master_api_key')) {
             return response()->json([
                 'error' => 'Unauthorized access'
             ], 403);
