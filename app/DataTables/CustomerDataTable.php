@@ -59,11 +59,11 @@ class CustomerDataTable extends DataTable
         if(!empty($start_date) && !empty($end_date)){
             $start_date = Carbon::parse($start_date);
             $end_date = Carbon::parse($end_date);
-            $query = $query->whereRaw('DATE(rec_date) BETWEEN ? AND ?',[$start_date,$end_date]);
+            $query = $query->whereRaw('DATE(update_date) BETWEEN ? AND ?',[$start_date,$end_date]);
         } else {
             $start_date = date('Y-m-d',strtotime('-2 days'));
             $end_date = date('Y-m-d');
-            $query = $query->whereRaw('DATE(rec_date) BETWEEN ? AND ?',[$start_date,$end_date]);
+            $query = $query->whereRaw('DATE(update_date) BETWEEN ? AND ?',[$start_date,$end_date]);
         }
 
         return $query;
