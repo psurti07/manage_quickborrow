@@ -29,7 +29,7 @@ class CustomerDataTable extends DataTable
                 return $actionBtn;
             })
             ->addColumn('date', function($row) {
-                return Carbon::parse($row->rec_date)->format('d-m-Y')."<br/>".Carbon::parse($row->rec_date)->format('h:i:s A');
+                return Carbon::parse($row->update_date)->format('d-m-Y')."<br/>".Carbon::parse($row->update_date)->format('h:i:s A');
             })
             ->addColumn('full_name', function($row){
                 return $row->first_name.' '.$row->last_name;
