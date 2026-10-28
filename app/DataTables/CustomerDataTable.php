@@ -46,7 +46,7 @@ class CustomerDataTable extends DataTable
         $end_date = $this->request()->get('end_date');
         $agent = $this->request()->get('agent');
 
-        $query = $model->newQuery()->where(['isActive'=>1, 'isDelete'=>0, 'isUser'=>2, 'acc_type'=>1])->orderByDesc('id');
+        $query = $model->newQuery()->where(['isActive'=>1, 'isDelete'=>0, 'isUser'=>2, 'acc_type'=>1])->orderByDesc('update_date');
         
         if($agent != ''){
             if($agent){
