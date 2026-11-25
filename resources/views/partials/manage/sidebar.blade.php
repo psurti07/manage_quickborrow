@@ -497,6 +497,7 @@
                                 <span class="">Send Custom SMS</span>
                             </a>
                         </li>
+                        @if (in_array(Auth::user()->role, [6]))
                         <li class="sidebar-list">
                             <i class="fa fa-thumb-tack"></i>
                             <a class="sidebar-link sidebar-title link-nav" href="{{ route('manage.sms.smsmessage') }}">
@@ -504,6 +505,7 @@
                                 <span class="">SMS Message</span>
                             </a>
                         </li>
+                        @endif
                         @if(!in_array(Auth::user()->role, [1]))
                             <li class="sidebar-list">
                                 <i class="fa fa-thumb-tack"></i>
@@ -550,6 +552,7 @@
                             </div>
                         </li>
                         @if(in_array(Auth::user()->role, [0,1,3,6]))
+                        @endif
                             <li class="sidebar-list">
                                 <i class="fa fa-thumb-tack"></i>
                                 <a class="sidebar-link sidebar-title link-nav" href="{{ route('manage.remarks') }}">
@@ -558,7 +561,9 @@
                                 </a>
                             </li>
                         @endif
+                        @endif
                         @if(!in_array(Auth::user()->role, [1]))
+                        @if (in_array(Auth::user()->role, [6]))
                             <li class="sidebar-list">
                                 <i class="fa fa-thumb-tack"></i>
                                 <a class="sidebar-link sidebar-title" href="javascript:;">
@@ -597,6 +602,7 @@
                                     <li><a href="{{ route('manage.terms-conditions') }}">Terms &amp; Conditions</a></li>
                                 </ul>
                             </li>
+                            @endif
                             <li class="sidebar-list">
                                 <a class="sidebar-link sidebar-title link-nav" href="{{ route('manage.staff.account') }}">
                                     <i data-feather="users"></i>

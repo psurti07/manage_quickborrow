@@ -7,7 +7,7 @@ use Modules\SiteOptions\App\Http\Controllers\AisensySettingsController;
 Route::group([
     'prefix' => '',
     'as' => 'manage.',
-    'middleware' => ['auth','PreventBackHistory']
+    'middleware' => ['auth','PreventBackHistory','check.super.admin.role']
 ], function () {
     Route::get('/welcome-message', [SiteOptionsController::class,'welcomeMessage'])->name('welcome-message');
     Route::post('/welcome-message/update', [SiteOptionsController::class,'welcomeMessageUpdate'])->name('welcome-message.update');

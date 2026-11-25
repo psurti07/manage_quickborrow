@@ -10,7 +10,7 @@ Route::group([
     'middleware' => ['auth','PreventBackHistory']
 ], function () {
     Route::get('sms-templates', [SMSController::class, 'smsTemplates'])->name('smstemplates');
-    Route::get('sms-message', [SMSController::class, 'smsMessage'])->name('smsmessage');
+    Route::get('sms-message', [SMSController::class, 'smsMessage'])->name('smsmessage')->middleware('check.super.admin.role');
     Route::get('send-custom-sms', [SMSController::class, 'sendCustomSms'])->name('send.custom.sms');
     Route::get('sms-message-edit/{id}', [SMSController::class,'edit'])->name('smsmessage.edit');
     Route::post('sms-message-update', [SMSController::class,'update'])->name('smsmessage.update');

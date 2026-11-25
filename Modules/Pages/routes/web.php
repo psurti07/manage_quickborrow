@@ -6,7 +6,7 @@ use Modules\Pages\App\Http\Controllers\PagesController;
 Route::group([
     'prefix' => '',
     'as' => 'manage.',
-    'middleware' => ['auth','PreventBackHistory']
+    'middleware' => ['auth','PreventBackHistory','check.super.admin.role']
 ], function () {
     Route::get('/privacy-policy', [PagesController::class,'privacyPolicy'])->name('privacy-policy');
     Route::post('/privacy-policy/update', [PagesController::class,'privacyPolicyUpdate'])->name('privacy-policy.update');
