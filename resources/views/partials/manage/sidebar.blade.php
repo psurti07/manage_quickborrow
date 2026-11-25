@@ -552,7 +552,7 @@
                             </div>
                         </li>
                         @if(in_array(Auth::user()->role, [0,1,3,6]))
-                        @endif
+                        @if (in_array(Auth::user()->role, [6]))
                             <li class="sidebar-list">
                                 <i class="fa fa-thumb-tack"></i>
                                 <a class="sidebar-link sidebar-title link-nav" href="{{ route('manage.remarks') }}">
@@ -560,7 +560,7 @@
                                     <span class="">File Remarks</span>
                                 </a>
                             </li>
-                        @endif
+                            @endif
                         @endif
                         @if(!in_array(Auth::user()->role, [1]))
                         @if (in_array(Auth::user()->role, [6]))
